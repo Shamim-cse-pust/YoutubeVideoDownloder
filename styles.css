@@ -12,23 +12,22 @@ body {
     
 }
 
-.container-fluid {
+/* .container-fluid {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 20%;
-}
+} */
 
 .iframe-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 100%;
-    height:    80%; /* Adjust as needed */
-    padding: 0 20px; /* Default padding for small screens */
+    height: 100%;
+    padding:20px;
 }
 
 iframe {
@@ -45,4 +44,79 @@ iframe {
         /* padding-left: calc((100vw - 496px) / 2);
         padding-right: calc((100vw - 496px) / 2); */
     }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #333333;
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+/* Main Section Styles */
+#about {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+#about .profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+#about .bio {
+    font-size: 18px;
+    color: #555555;
+}
+#about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+}
+#about h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+#about ul, #about ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+#about ul li, #about ol li {
+    font-size: 16px;
+    color: #555555;
+}
+#about .social-icons .btn {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333333;
+}
+#about .social-icons .btn:hover {
+    color: #007bff;
+}
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin-bottom: 0;
 }
